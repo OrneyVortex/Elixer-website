@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="box">
+      CodeChef
+      <div class="banner_img">
+        <img src="CodeChef_ABESEC_Chapter.jpg" alt="">
+      </div>
+    </div>
+    <div class="box" id="gfg">
+      GFG
+      <div class="banner_img">
+        <img src="GeeksforGeeks.png" alt="">
+      </div>
+    </div>
+    <div class="box" id="gdsc">
+      GDSC
+      <div class="banner_img">
+        <img src="gdsc-social-share.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <style>
+    .container{
+      display: flex;
+      width: 100%;
+    }
+    .box{
+      height: 500px;
+      padding: 25px;
+      flex: 1;
+      transition: 0.5s;
+      border: black solid 3px;
+      text-align: center;
+    }
+    .box:hover{
+      flex: 3;
+      background-color: #BEBEBE;
+
+    }
+
+    .banner_img img{
+      height: 200px;
+      object-fit: scale-down;
+    }
+
+    #gfg{
+      background-image: url('https://img.freepik.com/free-vector/green-gold-black-low-poly-design_1048-17040.jpg?w=900&t=st=1670954069~exp=1670954669~hmac=4fb9d0c98a1f873382aad55c50227a556265474b0669746bf910c49394922e45');
+    }
+    
+    #gdsc{
+      background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjooMJGPx30hjTh52bRE028W-pIR8q1y0aG87aDkBjsJoeOf3WBXWrQcjfmMj_ODbxxjN1oDGvg6QpRfj4zVE6Hzek9uQ7mM15caSWoYdq5p7JGV3ETVl9gZvh75Wea1HlS08QvlmVYM0gAAeveYGEO1KOmisd8Q92LHWfW5hAlKaDivvOEtVxCZ6CU/s1600/GDev-StudentSkillsSupportUkraine_1234x802.png')
+    }
+
+  </style>
+  
+</body>
+</html>
